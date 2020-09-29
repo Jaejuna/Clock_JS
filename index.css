@@ -30,6 +30,10 @@ script{
     display: none;
 }
 
+li::before{
+    list-style: none;
+}
+
 .js-weather {
     text-align: right;
     margin-right: 10px;
