@@ -38,6 +38,7 @@
 }
 
 body {
+    display: block;
     color: #d1d9ff;
     overflow: hidden;
     margin: 0px;
@@ -72,6 +73,13 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
 
 .form,
 .greeting{
@@ -111,6 +119,7 @@ h1 {
 .clicked {
     color: #7f8c8d;
 }
+
 
 @keyframes fadeIn{
     from {
