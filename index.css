@@ -18,7 +18,7 @@ body {
 
 ul {
     display: block;
-    list-style-type: disc;
+    list-style-type: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -28,10 +28,6 @@ ul {
 
 script{
     display: none;
-}
-
-li::before{
-    list-style: none;
 }
 
 .js-weather {
