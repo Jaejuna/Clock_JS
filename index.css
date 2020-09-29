@@ -45,7 +45,7 @@ body {
     padding: 0px;
     text-align: center;
     font-size: large;
-    -webkit-text-stroke: 1px var(--color-light-white);
+    -webkit-text-stroke: 1px var(--color-black);
 }
 
 ul {
