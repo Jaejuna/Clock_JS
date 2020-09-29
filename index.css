@@ -34,16 +34,7 @@
     --size-border-radius: 4px;
 
     /* animation */
-    --animation-duration: 500ms;
-}
-
-.form,
-.greeting{
-    display: none;
-}
-
-.showing{
-    display: block;
+    --animation-duration: 200ms;
 }
 
 body {
@@ -82,8 +73,17 @@ h1 {
     font-weight: bold;
 }
 
+.form,
+.greeting{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
 .js-clock{
-    font-size: var(--font-large);
+    font-size: var(--font-medium);
     margin-top: 200px;
     margin-bottom: 70px; 
 }
@@ -96,6 +96,7 @@ h1 {
 }
 
 .bgImage{
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
