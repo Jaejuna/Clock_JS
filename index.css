@@ -26,6 +26,10 @@ ul {
     padding-inline-start: 40px;
 }
 
+li{
+    list-style-type: none;
+}
+
 script{
     display: none;
 }
