@@ -39,13 +39,13 @@
 
 body {
     display: block;
-    color: #d1d9ff;
+    color: #ffffff;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
     text-align: center;
     font-size: large;
-    -webkit-text-stroke: 1px var(--color-light-white);
+    -webkit-text-stroke: 1px var(--color-black);
 }
 
 ul {
