@@ -1,3 +1,42 @@
+:root{
+    /* color */
+    --color-white: #ffffff;
+    --color-light-white: #eeeeee;
+    --color-dark-white: #bdbdbd;
+    --color-pink: #fe918d;
+    --color-dark-pink: #ff6863;
+    --color-dark-gray: #4d4d4d;
+    --color-gray: #616161;
+    --color-light-gray: #7c7979;
+    --color-blue: #73aace;
+    --color-yellow: #fff7d1;
+    --color-orange: #feb546;
+    --color-black: #000000;
+    --color-purple: #4d2c91;
+    --color-light-purple: #7e57c2; 
+    --color-light-deep-purple: #b39ddb;
+    --color-deep-purple: #4d2c91;
+    --color-purple-2: #9c27b0;
+    
+    /* font-size */
+    --font-large: 48px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+
+    /* font-weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+
+    /* size */
+    --size-border-radius: 4px;
+
+    /* animation */
+    --animation-duration: 500ms;
+}
+
 .form,
 .greeting{
     display: none;
@@ -19,7 +58,6 @@ body {
 ul {
     display: block;
     padding: 0;
-    list-style-type: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -35,6 +73,16 @@ script{
     display: none;
 }
 
+h1 {
+    display: block;
+    font-size: var(--font-large);
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .js-weather {
     text-align: right;
     margin-right: 10px;
@@ -43,22 +91,11 @@ script{
 }
 
 .bgImage{
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: -1;
     animation: fadeIn 2s linear;
-}
-
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
 }
 
 .btn {
